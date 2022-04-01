@@ -275,7 +275,7 @@ def get_account():
 
 if __name__ == '__main__':
     uid, psw = get_account()
-    # print(uid, psw)
+    print(uid, psw)
     zlapp_login = 'https://uis.fudan.edu.cn/authserver/login?' \
                   'service=https://zlapp.fudan.edu.cn/site/ncov/fudanDaily'
     code_url = "https://zlapp.fudan.edu.cn/backend/default/code"
